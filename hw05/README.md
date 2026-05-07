@@ -4,12 +4,13 @@
 
 ## 目录结构
 hw05/
-├── simple_cnn.py # 任务一：极简CNN代码（来源：公众号文章）
-├── lenet5.py # 任务二：LeNet-5实现
-├── requirements.txt # 依赖包列表
-├── debug_notes.md # 调试记录
-└── README.md # 实验报告（本文件）
-
+├── simple_cnn.py      
+├── lenet5.py          
+├── train_lenet.py     
+├── requirements.txt   
+├── debug_notes.md     
+├── README.md          
+└── .gitignore         
 ## 一键训练/评估两个模型
 
 运行以下命令即可分别训练和评估两个模型：
