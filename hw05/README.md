@@ -7,10 +7,11 @@ hw05/
 ├── simple_cnn.py      
 ├── lenet5.py          
 ├── train_lenet.py     
+├── report.md          
 ├── requirements.txt   
 ├── debug_notes.md     
 ├── README.md          
-└── .gitignore         
+└── .gitignore               
 ## 一键训练/评估两个模型
 
 运行以下命令即可分别训练和评估两个模型：
