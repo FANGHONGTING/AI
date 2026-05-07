@@ -1,3 +1,6 @@
+# 代码来源：微信公众号文章《计算机视觉》第10篇
+# 原文链接：https://mp.weixin.qq.com/s/iBNvhk-uAeAfTuanxiLs9Q
+# 本代码未做改动，直接使用原文实现
 import torch
 import torch.nn as nn
 import torch.optim as optim
