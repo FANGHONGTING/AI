@@ -1,7 +1,7 @@
 # HW07: 胸部X光肺炎影像二分类
 
 ## 基本信息
-- **学生**：SONGYAYA34
+- **学生**：方泓婷
 - **课程**：《人工智能导论》
 - **作业**：HW07
 - **任务**：胸部X光肺炎影像二分类（Normal vs Pneumonia）
@@ -41,3 +41,26 @@
 | F1-Score | 88.76% |
 
 ## 混淆矩阵
+预测正常 预测肺炎
+实际正常: 144 90
+实际肺炎: 7 383
+
+## 运行方式
+1. 在Kaggle Notebook中打开 `train.ipynb`
+2. 挂载数据集：Chest X-Ray Images (Pneumonia)
+3. 依次运行所有单元格
+
+## 运行环境
+- Kaggle Notebook (CPU)
+- TensorFlow 2.19.0
+- Python 3.12
+
+## 文件结构
+hw07/
+├── train.ipynb # 训练代码
+├── requirements.txt # 依赖包
+├── README.md # 项目说明
+├── report.md # 实验报告
+└── figures/ # 图表
+├── training_curves.png
+└── confusion_matrix.png
